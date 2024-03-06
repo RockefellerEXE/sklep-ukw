@@ -13,7 +13,7 @@ namespace SklepUKW.Models
         public string Director { get; set; }
 
         [StringLength(200)]
-        public string Desctription { get; set; }
+        public string Desc { get; set; }
 
         //[ForeignKey("Category")]
         public int CategoryId { get; set;}
