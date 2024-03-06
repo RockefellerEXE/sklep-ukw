@@ -11,7 +11,7 @@ using SklepUKW.DAL;
 namespace SklepUKW.Migrations
 {
     [DbContext(typeof(FilmsContext))]
-    [Migration("20240306164130_init")]
+    [Migration("20240306165351_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
