@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m6kT6CFd+208wGBbW9TokQuix9n968ZVqOHoQkk43X4=",
+  "Hash": "niUqv/g8ApuYqvzdrwjsMlznV+UmLxtnIUga8nigrC8=",
   "Source": "SklepUKW",
   "BasePath": "_content/SklepUKW",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "F:\\TI\\sklepUKW\\wwwroot\\css\\style.css",
+      "SourceId": "SklepUKW",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\TI\\sklepUKW\\wwwroot\\",
+      "BasePath": "_content/SklepUKW",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "F:\\TI\\sklepUKW\\wwwroot\\favicon.ico",
