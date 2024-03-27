@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SklepUKW.DAL;
 
@@ -11,9 +12,10 @@ using SklepUKW.DAL;
 namespace SklepUKW.Migrations
 {
     [DbContext(typeof(FilmsContext))]
-    partial class FilmsContextModelSnapshot : ModelSnapshot
+    [Migration("20240327161037_nowePola")]
+    partial class nowePola
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -115,31 +117,25 @@ namespace SklepUKW.Migrations
                         new
                         {
                             FilmId = 21,
-                            AddDate = new DateTime(2010, 7, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 4,
                             Desc = "Zespół specjalistów wkracza w umysł biznesmena, aby zaimplantować tam myśl.",
                             Director = "Christopher Nolan",
-                            Price = 15.0,
                             Title = "Inception"
                         },
                         new
                         {
                             FilmId = 22,
-                            AddDate = new DateTime(2012, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 3,
                             Desc = "Kiedy zaginie żona, mąż staje się głównym podejrzanym, ale sytuacja jest bardziej skomplikowana niż się wydaje.",
                             Director = "David Fincher",
-                            Price = 35.0,
                             Title = "Gone Girl"
                         },
                         new
                         {
                             FilmId = 23,
-                            AddDate = new DateTime(2010, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CategoryId = 1,
                             Desc = "Kiedy młoda dziewczyna zostaje opętana przez złego ducha, ksiądz próbuje jej pomóc.",
                             Director = "William Friedkin",
-                            Price = 5.0,
                             Title = "The Exorcist"
                         },
                         new
