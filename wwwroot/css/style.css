@@ -44,3 +44,8 @@ footer a {
 .details-table td{
     padding : 3rem
 }
+.posters {
+    height: 15rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}

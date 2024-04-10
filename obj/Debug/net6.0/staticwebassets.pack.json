@@ -5,6 +5,46 @@
       "PackagePath": "staticwebassets\\SklepUKW.bundle.scp.css"
     },
     {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\cube.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\cube.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\hellriser.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\hellriser.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\iluzjonista.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\iluzjonista.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\milczenie-owiec.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\milczenie-owiec.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\numer-23.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\numer-23.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\red.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\red.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\sekretne-okno.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\sekretne-okno.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\teksanska-masakra-pila-mechaniczna.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\teksanska-masakra-pila-mechaniczna.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\tylko-nie-mow-nikomu.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\tylko-nie-mow-nikomu.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\wladca-pierscieni-druzyna-pierscienia.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\wladca-pierscieni-druzyna-pierscienia.jpg"
+    },
+    {
       "Id": "F:\\TI\\sklepUKW\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
