@@ -49,3 +49,7 @@ footer a {
     margin: 2rem;
     border-radius: 0.5rem;
 }
+.category-name{
+    text-align: center;
+    color: dimgray;
+}

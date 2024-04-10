@@ -1,9 +1,10 @@
 ﻿@model Film
 @(await Component.InvokeAsync("CategoryFilms", new{ categoryName = Model.Category.Name}))
+<h1>@Model.Category.Name</h1>
 <table class="details-table">
     <tr>
         <td>
-            @Model.Category.Name
+           <img class="posters" src="~/obrazki/@Model.Poster" />
         </td>
         <td>
             <p><b>Tytuł:</b> @Model.Title</p>

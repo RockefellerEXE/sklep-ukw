@@ -9,7 +9,7 @@
     {
         if(film.Poster != null)
         {
-            <img class="posters" src="~/obrazki/@film.Poster" />
+            <a href="@Url.Action("Details", "Films", new{filmId = film.FilmId})"><img class="posters" src="~/obrazki/@film.Poster" /></a>
         }
     }
 </div>
