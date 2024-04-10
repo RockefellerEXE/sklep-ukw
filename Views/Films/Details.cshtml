@@ -1,6 +1,6 @@
 ﻿@model Film
 @(await Component.InvokeAsync("CategoryFilms", new{ categoryName = Model.Category.Name}))
-<h1>@Model.Category.Name</h1>
+<h1 class="category-name">@Model.Category.Name</h1>
 <table class="details-table">
     <tr>
         <td>
