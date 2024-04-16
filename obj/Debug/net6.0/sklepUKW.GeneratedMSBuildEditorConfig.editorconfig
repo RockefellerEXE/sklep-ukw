@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\TI\sklepUKW
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/TI/sklepUKW/Views/Films/FilmsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcRmlsbXNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/TI/sklepUKW/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/TI/sklepUKW/Views/Home/Regulamin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWd1bGFtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/TI/sklepUKW/Views/Shared/Components/Menu/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVxfTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/TI/sklepUKW/Views/Shared/Error.cshtml]
