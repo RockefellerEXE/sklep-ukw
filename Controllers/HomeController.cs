@@ -19,8 +19,8 @@ namespace SklepUKW.Controllers
 
         public IActionResult Index()
         {
-            var categories = db.Categories.ToList();
-            return View(categories);
+            var films = db.Films.ToList();
+            return View(films);
         }
 
         public IActionResult Privacy()

@@ -1,9 +1,15 @@
-﻿@model IEnumerable<Category>
+﻿@model IEnumerable<Film>
 @{
     ViewData["Title"] = "Hej";
     ViewBag.Title = "Główna";
 }
 
 <div class="text-center">
-
+    @foreach(var film in Model)
+    {
+        if(film.Poster != null)
+        {
+            <a href="@Url.Action("Details", "Films", new{filmId = film.FilmId})"><img class="posters" src="~/obrazki/@film.Poster" /></a>
+        }
+    }
 </div>
