@@ -15,6 +15,10 @@ namespace SklepUKW.Models
         [StringLength(200)]
         public string Desc { get; set; }
 
+        public double? Price { get; set; }
+
+        public DateTime? AddDate { get; set; }
+
         //[ForeignKey("Category")]
         public int CategoryId { get; set;}
 

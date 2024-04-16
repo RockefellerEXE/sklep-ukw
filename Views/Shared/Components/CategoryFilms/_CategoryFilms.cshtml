@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Film>
+<div class="col-sm-2 sidenav">
+    @foreach (var film in Model)
+    {
+        <p>
+            <a href="@Url.Action("Details", "Films", new{
+           filmId=film.FilmId
+           })">@film.Title</a>
+        </p>
+    }
+</div>

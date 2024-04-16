@@ -1,0 +1,16 @@
+﻿@model Film
+@(await Component.InvokeAsync("CategoryFilms", new{ categoryName = Model.Category.Name}))
+<table class="details-table">
+    <tr>
+        <td>
+            @Model.Category.Name
+        </td>
+        <td>
+            <p><b>Tytuł:</b> @Model.Title</p>
+            <p><b>Reżycer:</b> @Model.Director</p>
+            <p><b>Opis:</b> @Model.Desc</p>
+            <p><b>Cena:</b> @Model.Price zł</p>
+            <p><b>Data dodania:</b> @Model.AddDate?.ToString("dd/MM/yyyy")</p>
+        </td>
+    </tr>
+</table>

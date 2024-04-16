@@ -5,6 +5,7 @@
             <th>Tytuł filmu</th>
             <th>Reżyser</th>
             <th>Opis</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -14,6 +15,9 @@
                 <td>@film.Title</td>
                 <td>@film.Director</td>
                 <td>@film.Desc</td>
+                <td><a href="@Url.Action("Details", "Films", new{
+                    filmId=film.FilmId
+                })">🔎</a></td>
             </tr>
         }
     </tbody>

@@ -54,7 +54,9 @@ namespace SklepUKW.DAL
                     CategoryId = 4,
                     Title = "Inception",
                     Director = "Christopher Nolan",
-                    Desc = "Zespół specjalistów wkracza w umysł biznesmena, aby zaimplantować tam myśl."
+                    Desc = "Zespół specjalistów wkracza w umysł biznesmena, aby zaimplantować tam myśl.",
+                    Price = 15,
+                    AddDate = new DateTime(2010,7,8)
                 },
                 new Film()
                 {
@@ -62,7 +64,9 @@ namespace SklepUKW.DAL
                     CategoryId = 3,
                     Title = "Gone Girl",
                     Director = "David Fincher",
-                    Desc = "Kiedy zaginie żona, mąż staje się głównym podejrzanym, ale sytuacja jest bardziej skomplikowana niż się wydaje."
+                    Desc = "Kiedy zaginie żona, mąż staje się głównym podejrzanym, ale sytuacja jest bardziej skomplikowana niż się wydaje.",
+                    Price = 35,
+                    AddDate = new DateTime(2012, 2, 23)
                 },
                 new Film()
                 {
@@ -70,7 +74,9 @@ namespace SklepUKW.DAL
                     CategoryId = 1,
                     Title = "The Exorcist",
                     Director = "William Friedkin",
-                    Desc = "Kiedy młoda dziewczyna zostaje opętana przez złego ducha, ksiądz próbuje jej pomóc."
+                    Desc = "Kiedy młoda dziewczyna zostaje opętana przez złego ducha, ksiądz próbuje jej pomóc.",
+                    Price = 5,
+                    AddDate = new DateTime(2010, 11, 12)
                 },
                 new Film()
                 {
