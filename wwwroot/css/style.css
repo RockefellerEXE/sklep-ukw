@@ -53,3 +53,11 @@ footer a {
     text-align: center;
     color: dimgray;
 }
+form{
+    margin: 4rem;
+    max-width : 400px;
+}
+.btn-dodaj{
+    margin: 2rem 0;
+    width : 20vw;
+}

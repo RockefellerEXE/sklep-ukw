@@ -20,7 +20,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="@Url.Action("Index","Home")">Logo</a>
+      <a class="navbar-brand" href="@Url.Action("Index","Home")">Wszystkie</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       @(await Component.InvokeAsync("Menu"))
@@ -53,6 +53,7 @@
     <a href="@Url.Action("FooterSites", "Home", new { name = "MetodyPlatnosci"})">Metody płatności</a>
     <a href="@Url.Action("FooterSites", "Home", new { name = "Regulamin"})">Regulamin</a>
     <a href="@Url.Action("FooterSites", "Home", new { name = "Kontakt"})">Kontakt</a>
+    <a href="@Url.Action("AddFilm","Films")" class="btn btn-success">DODAJ</a>
 </footer>
 
 </body>

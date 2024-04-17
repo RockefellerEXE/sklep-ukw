@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SklepUKW.DAL;
+using SklepUKW.Models;
 
 namespace SklepUKW.Controllers
 {
@@ -30,6 +31,23 @@ namespace SklepUKW.Controllers
             var category = db.Categories.Find(film.CategoryId);
 
             return View(film);
+        }
+        [HttpGet]
+        public IActionResult AddFilm()
+        {
+            var model = new AddFilmViewModel();
+            model.Categories = db.Categories.ToList();
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult AddFilm(AddFilmViewModel model) {
+            model.Film.AddDate = DateTime.Now;
+            model.Film.Poster = "cube.jpg";
+
+            db.Films.Add(model.Film);
+            db.SaveChanges();
+
+            return RedirectToAction("Details",new { filmId = model.Film.FilmId });
         }
     }
 }
