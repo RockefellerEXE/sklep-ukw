@@ -1,5 +1,3 @@
 .vs/
-Bin/
-bin/
-obj/
-Obj/
+**/obj
+**/bin
