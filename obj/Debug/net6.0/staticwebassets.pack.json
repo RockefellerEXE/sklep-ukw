@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SklepUKW.bundle.scp.css"
     },
     {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\5190ef09-eacf-4dbb-a8ac-272497a1c30c_palacz_zwlok.jpg",
+      "PackagePath": "staticwebassets\\Obrazki\\5190ef09-eacf-4dbb-a8ac-272497a1c30c_palacz_zwlok.jpg"
+    },
+    {
       "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\cube.jpg",
       "PackagePath": "staticwebassets\\Obrazki\\cube.jpg"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\numer-23.jpg",
       "PackagePath": "staticwebassets\\Obrazki\\numer-23.jpg"
+    },
+    {
+      "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\palacz_zwlok.jpg_150ff71d-e316-4118-a57c-a49e05ce5192",
+      "PackagePath": "staticwebassets\\Obrazki\\palacz_zwlok.jpg_150ff71d-e316-4118-a57c-a49e05ce5192"
     },
     {
       "Id": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\red.jpg",

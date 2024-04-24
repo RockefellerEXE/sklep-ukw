@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "txxl9gvX20xHT/ua5XVn+pJ/IZoWlq5Ro4Jg0Ma3QaM=",
+  "Hash": "0bdJ8i3mvleIbsUhKli3pnD5rd2RhxAA69+szEMuDpo=",
   "Source": "SklepUKW",
   "BasePath": "_content/SklepUKW",
   "Mode": "Default",
@@ -1088,6 +1088,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\5190ef09-eacf-4dbb-a8ac-272497a1c30c_palacz_zwlok.jpg",
+      "SourceId": "SklepUKW",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\TI\\sklepUKW\\wwwroot\\",
+      "BasePath": "_content/SklepUKW",
+      "RelativePath": "Obrazki/5190ef09-eacf-4dbb-a8ac-272497a1c30c_palacz_zwlok.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Obrazki\\5190ef09-eacf-4dbb-a8ac-272497a1c30c_palacz_zwlok.jpg"
+    },
+    {
       "Identity": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\cube.jpg",
       "SourceId": "SklepUKW",
       "SourceType": "Discovered",
@@ -1171,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Obrazki\\numer-23.jpg"
+    },
+    {
+      "Identity": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\palacz_zwlok.jpg_150ff71d-e316-4118-a57c-a49e05ce5192",
+      "SourceId": "SklepUKW",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\TI\\sklepUKW\\wwwroot\\",
+      "BasePath": "_content/SklepUKW",
+      "RelativePath": "Obrazki/palacz_zwlok.jpg_150ff71d-e316-4118-a57c-a49e05ce5192",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Obrazki\\palacz_zwlok.jpg_150ff71d-e316-4118-a57c-a49e05ce5192"
     },
     {
       "Identity": "F:\\TI\\sklepUKW\\wwwroot\\Obrazki\\red.jpg",

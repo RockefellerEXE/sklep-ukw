@@ -1,6 +1,6 @@
 ﻿@model AddFilmViewModel
 
-@using (Html.BeginForm("AddFilm","Films",FormMethod.Post))
+@using (Html.BeginForm("AddFilm","Films",FormMethod.Post,new{enctype ="multipart/form-data"}))
 {
     <div class="form-group">
         @Html.LabelFor(m=> m.Film.Title,"Tytuł filmu:")
@@ -25,5 +25,10 @@
             <br/>
         }
     </div>
+    <div class="form-group">
+        @Html.LabelFor(m=> m.Poster,"Wybierz plakat:")
+        @Html.TextBoxFor(m => m.Poster,new{@type = "file", @class = "form-control-file", @required = true})
+    </div>
+
     <button type="submit" class="btn btn-primary btn-dodaj">Dodaj nowy film</button>
 }
