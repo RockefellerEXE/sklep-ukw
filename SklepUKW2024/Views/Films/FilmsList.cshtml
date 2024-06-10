@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Film>
+@{
+	//Layout = null;
+}
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Tytuł filmu</th>
+			<th>Reżyser</th>
+			<th>Opis</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var film in Model)
+		{
+			<tr>
+				<td>@film.Title</td>
+				<td>@film.Director</td>
+				<td>@film.Desc</td>
+				<td><a href="@Url.Action("Details", "Films", new { filmId = film.FilmId })">🔎</a></td>
+				<td><a href="@Url.Action("AddToCart", "Cart", new { filmId = film.FilmId })">🛒</a></td>
+			</tr>
+		}
+	</tbody>
+</table>

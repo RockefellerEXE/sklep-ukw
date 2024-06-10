@@ -1,0 +1,37 @@
+﻿@model IEnumerable<CartItem>
+
+<table class="table table-striped">
+	@foreach (var cartItem in Model)
+	{
+		<tr id="cartItem-@cartItem.Film.FilmId">
+			<td>@cartItem.Film.Title</td>
+			<td id="itemQuantity-@cartItem.Film.FilmId">@cartItem.Quantity</td>
+			<td>@cartItem.Value zł</td>
+			<td><a href="#", class="trash" data-id="@cartItem.Film.FilmId">🗑</a></td>
+		</tr>
+	}
+</table>
+
+
+<div id="totalValue">
+	Razem: @ViewBag.total zł
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+		$(".trash").click(function () {
+			let Id = $(this).data("id")
+			if (Id != '') {
+				$.post("/Cart/Remove", { "filmId": Id }, function (response) {
+					if(response.itemQuantity ==0){
+						$("#cartItem-" + response.itemId).fadeOut("slow");
+					} else {
+						$("#itemQuantity-" + response.itemId).text(response.itemQuantity);
+					}
+					$("#totalValue").text("Razem: " + response.cartValue + " zł");
+				});
+			} 
+		});
+	</script>
+}

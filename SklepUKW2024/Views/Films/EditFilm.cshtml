@@ -1,0 +1,37 @@
+﻿@model Film
+
+@(await Component.InvokeAsync("CategoryFilms", new { categoryName = Model.Category.Name }))
+
+<h1 class="category-name">@Model.Category.Name</h1>
+
+@using (Html.BeginForm("EditFilm", "Films", FormMethod.Post))
+{
+@Html.HiddenFor(f=>f.FilmId)
+@Html.HiddenFor(f=>f.Poster)
+@Html.HiddenFor(f=>f.CategoryId)
+@Html.HiddenFor(f=>f.AddDate)
+	
+<table id="details-table">
+	<tr>
+		<td>
+			<img class="posters" src="~/obrazki/@Model.Poster" />
+		</td>
+		<td>
+			<p> <b>Tytuł:</b> 
+				@Html.EditorFor(f => f.Title, new { @class="form-control"})
+			</p>
+			<p> <b>Reżyser:</b> 
+				@Html.EditorFor(f => f.Director, new { @class="form-control"})
+			</p>
+			<p> <b>Opis:</b> 
+				@Html.EditorFor(f => f.Desc, new { @class="form-control"})
+			</p>
+			<p> <b>Cena:</b>
+				@Html.EditorFor(f => f.Price, new { @class="form-control"})
+			</p>
+			<p> <b>Data dodania:</b> @Model.AddDate?.ToString("dd/MM/yyyy") </p>
+		</td>
+	</tr>
+</table>
+	<button type="submit" class="btn btn-outline-success">Zapisz</button>
+}
