@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Film>
+
+@{
+   // ViewData["Title"] = "Strona główna";
+    ViewBag.Title = "Strona główna";
+}
+
+<div class="text-center">
+	@foreach (var film in Model)
+	{
+		<a href="@Url.Action("Details", "Films", new { filmId = film.FilmId })"><img class="posters" src="~/obrazki/@film.Poster" /></a>
+	}
+</div>
